@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <!-- <a href="index.html"><img src="imgages/banner.png"></a> -->
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+
+        </nav>
+        <h1>Our Courses </h1>
+    </section>
+    <section class="course">
+        <h1>Courses we offered</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptates iste neque architecto dolor! Deserunt quis sapiente optio. Quos aut atque beatae, sunt itaque esse modi optio temporibus? Architecto, consequatur!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quos nihil commodi laborum facere ut deleniti. Dicta sit expedita facilis quia corrupti! Nostrum, autem assumenda dicta error porro sapiente aperiam?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quos nihil commodi laborum facere ut deleniti. Dicta sit expedita facilis quia corrupti! Nostrum, autem assumenda dicta error porro sapiente aperiam?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Greduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quos nihil commodi laborum facere ut deleniti. Dicta sit expedita facilis quia corrupti! Nostrum, autem assumenda dicta error porro sapiente aperiam?</p>
+            </div>
+
+
+        </div>
+        <!-- ------------javaScript for toggle menu -->
+    </section>
+
+    <!-- ------------javaScript for toggle menu -->
+
+    <!-- campus -->
+    <!-- Call to action  -->
+    <!-- Footer -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iste! In officiis soluta quis fuga facere modi corporis totam ipsam porro aspernatur, consectetur saepe tempora recusandae quaerat dolore possimus enim.</p>
+        <div class="row">
+            <div class="fafilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia neque, repellendus sequi ea quos culpa, quod itaque delectus iure deserunt unde perferendis similique aliquam voluptatibus vitae vero at corrupti!</p>
+
+            </div>
+            <div class="fafilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia neque, repellendus sequi ea quos culpa, quod itaque delectus iure deserunt unde perferendis similique aliquam voluptatibus vitae vero at corrupti!</p>
+
+            </div>
+            <div class="fafilities-col">
+                <img src="images/cafeteria.png">
+                <h3> Tasty and Healthy Food </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia neque, repellendus sequi ea quos culpa, quod itaque delectus iure deserunt unde perferendis similique aliquam voluptatibus vitae vero at corrupti!</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer ">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci <br> quidem saepe doloribus molestias aut numquam <br>consequuntur non? Distinctio pariatur, assumenda quaerat quidem in quasi fuga tempora facere? In, quibusdam.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i></p>
+    </section>
+    <script>
+        navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

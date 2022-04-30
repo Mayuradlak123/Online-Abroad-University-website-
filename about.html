@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <!-- <a href="index.html"><img src="imgages/banner.png"></a> -->
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+
+        </nav>
+        <h1>About us </h1>
+    </section>
+
+    <!-- ------------javaScript for toggle menu -->
+
+    <!-- campus -->
+    <!-- Call to action  -->
+    <!-- Footer -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are World largest university </h1>
+                <p>Lorem dolor sit amet consectetur adipisicing elit. Eaque, distinctio provident ab in consectetur ratione incidunt corrupti a tenetur, pariatur repellendus. Hic dolores debitis ex corporis cupiditate aut dolorum explicabo! Stanford University
+                    has over 9,000 graduate students pursuing degrees in more than 65 departments and programs within 7 schools. Requirements for admission vary greatly among departments and programs. Therefore, we encourage interested students to consult
+                    the Web sites of the department, program, or school of interest to find out more about applying to specific departments prior to visiting.
+                </p>
+                <a href="" class="hero-btn red-btn"> EXPLORE </a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+
+        </div>
+    </section>
+    <section class="footer ">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci <br> quidem saepe doloribus molestias aut numquam <br>consequuntur non? Distinctio pariatur, assumenda quaerat quidem in quasi fuga tempora facere? In, quibusdam.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i></p>
+    </section>
+    <script>
+        navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
